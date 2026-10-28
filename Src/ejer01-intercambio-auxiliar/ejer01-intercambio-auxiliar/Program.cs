@@ -1,0 +1,10 @@
+﻿int A, B, Intercambio;
+Console.WriteLine("Digite un numero: ");
+A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite otro numero: ");
+B = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("El valor de A  es: " + A + " El valor de B es: " + B);
+Intercambio = A;
+A = B;
+B = Intercambio;
+Console.WriteLine("El valor de A ahora es: "+A+" El valor de B Ahora es: "+B);
