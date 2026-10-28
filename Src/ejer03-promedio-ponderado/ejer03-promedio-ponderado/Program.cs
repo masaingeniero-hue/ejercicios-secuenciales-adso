@@ -1,0 +1,12 @@
+﻿double nota1, nota2, nota3, promedio1, promedio2, promedio3, promediototal;
+Console.WriteLine("Digite la primer nota a evaluar: ");
+nota1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite la segunda nota a evaluar: ");
+nota2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite la tercer nota a evaluar: ");
+nota3 = Convert.ToDouble(Console.ReadLine());
+promedio1 = nota1 * 0.25;
+promedio2 = nota2 * 0.35;
+promedio3 = nota3 * 0.4;
+promediototal = promedio1 + promedio2 + promedio3;
+Console.WriteLine("Su definitiva es: " + promediototal);
