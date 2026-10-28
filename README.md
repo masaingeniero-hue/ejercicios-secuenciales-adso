@@ -3,8 +3,8 @@
 Soluciones en *C#* de los 20 ejercicios de estructura secuencial
 del programa ADSO (SENA). Cada ejercicio vive en su propia carpeta.
 
-- *Aprendiz:* Laura Ríos
-- *Ficha:* 283741
+- *Aprendiz:* Miguell Suarez
+- *Ficha:* 3603305
 - *Competencia:* Algoritmos
 
 ## Cómo ejecutar
@@ -15,4 +15,5 @@ en un compilador en línea o en Visual Studio.
 | No | Ejercicio | Estado |
 |----|-----------|--------|
 | 01 | Intercambio con variable auxiliar | ✅ |
-| 02 | Intercambio sin variable auxiliar | ⏳ |
+| 02 | Intercambio sin variable auxiliar | ✅ |
+| 03 | Promedio ponderado (25%/35%/40%)  | ✅ |
