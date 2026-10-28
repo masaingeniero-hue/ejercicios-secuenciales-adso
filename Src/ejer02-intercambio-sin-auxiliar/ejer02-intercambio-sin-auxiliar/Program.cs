@@ -1,0 +1,10 @@
+﻿int A, B;
+Console.WriteLine("Digite su primer numero: ");
+A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite su segundo numero: ");
+B = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("El numero de A es: " + A + " y el numero de B es: " + B);
+A = A + B ;
+B = A - B;    
+A = A - B;
+Console.WriteLine("El numero cambiado de A es: "+A+" y el numero cambiado de B es: "+B);
