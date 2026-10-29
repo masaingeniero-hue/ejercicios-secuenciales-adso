@@ -1,0 +1,12 @@
+﻿int dinero, cincuenta,sobrante1,sobrante2,sobrante3,cantidad1,cantidad2,cantidad3,cantidad4;
+Console.WriteLine("Digite la cantidad de dinero a retirar 'solo multiplos de 5000': ");
+dinero = Convert.ToInt32(Console.ReadLine());
+cincuenta = dinero / 50000;
+sobrante1 = dinero % 50000;
+cantidad1 = cincuenta % 50000;
+cantidad2 = sobrante1 / 20000;
+sobrante2 = sobrante1 % 20000;
+cantidad3 = sobrante2 / 10000;
+sobrante3 = sobrante2 % 10000;
+cantidad4 = sobrante3 / 5000;
+Console.WriteLine("la cantidad de billetes de 50000 es: " + cantidad1 + " de billetes de 20000 son: " + cantidad2+ " de billetes de 10000 son: "+cantidad3+" de billetes de 5000 son:"+cantidad4);
