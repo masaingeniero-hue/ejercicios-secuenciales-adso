@@ -1,1 +1,12 @@
-﻿Console.WriteLine("Hello, World!");
+﻿double base1, altura1, area, perimetro,doble, triple,areaduplicada;
+    Console.WriteLine("Digite el valor de su base: ");
+    base1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Digite el valor de su altura: ");
+    altura1 = Convert.ToDouble(Console.ReadLine());
+        area = base1 * altura1;
+        perimetro = 2*(base1 + altura1);
+        doble = base1 * 2;
+        triple = altura1 * 3;
+        areaduplicada = doble * triple;
+            Console.WriteLine("El area de su rectangulo dada su base como: "+base1+" y su altura como: "+altura1+" es de: "+area+" y su perimetro es de: "+perimetro);
+            Console.WriteLine("Y si su base se duplica seria de: "+doble+" y la altura triplicada es de: "+triple+" El area total seria: "+areaduplicada);
