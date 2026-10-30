@@ -1,0 +1,12 @@
+﻿int digitotrescifras, ultimonumero, segundonumero, tercernumero, cortarnumero1 , sumadigitos;
+Console.WriteLine("Digite un numero de tres cifras: ");
+digitotrescifras = Convert.ToInt32(Console.ReadLine());
+ultimonumero = digitotrescifras % 10;
+//Console.WriteLine(ultimonumero);
+cortarnumero1 = digitotrescifras / 10;
+segundonumero = cortarnumero1 % 10;
+//Console.WriteLine(segundonumero);
+tercernumero = cortarnumero1 / 10;
+//Console.WriteLine(tercernumero);
+sumadigitos = ultimonumero + segundonumero + tercernumero;
+Console.WriteLine("La suma de los digitos de su numero de tres cifras es de: "+sumadigitos);
