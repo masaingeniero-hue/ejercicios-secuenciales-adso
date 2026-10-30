@@ -1,0 +1,14 @@
+﻿double horastrabajadas, valorhoras, salariobase, horasextras, valorhorasextras, jornadalegal, total;
+Console.WriteLine("Digite cuantas horas trabajadas: ");
+horastrabajadas = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite el valor de su horas: ");
+valorhoras = Convert.ToDouble(Console.ReadLine());
+jornadalegal = 160;
+horasextras = (horastrabajadas - jornadalegal) % 1000;
+salariobase = horastrabajadas * valorhoras;
+valorhorasextras = salariobase * 0.25;
+total = salariobase + valorhorasextras;
+//Console.WriteLine(horasextras);
+//Console.WriteLine(salariobase);
+//Console.WriteLine(valorhorasextras);
+Console.WriteLine("Segun sus horas trabajadas: "+horastrabajadas+" y el valor de sus horas: "+valorhoras+" Su salario base es de: "+salariobase+" el total de sus horas extras es: "+horasextras+" con un valor de: "+valorhorasextras+" y su total es: "+total);
