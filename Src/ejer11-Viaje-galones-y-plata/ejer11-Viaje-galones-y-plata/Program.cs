@@ -1,0 +1,13 @@
+﻿double velocidad, tiempo, distancia, rendimiento, preciogalon, costocombustible, galonesnecesarios ;
+Console.WriteLine("Digite la velocidad en (Km/h): ");
+velocidad = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite el tiempo que se duro en (h)(formato de 12h)");
+tiempo = Convert.ToInt32(Console.ReadLine());
+distancia = velocidad * tiempo;
+Console.WriteLine("Digite el rendimiento de su coche en (km/galon): ");
+rendimiento = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite el precio del galon: ");
+preciogalon = Convert.ToInt32(Console.ReadLine());
+galonesnecesarios = distancia / rendimiento;
+costocombustible = galonesnecesarios * preciogalon;
+Console.WriteLine("Su velocidad es: " + velocidad + " (Km/h) y su tiempo es de:" + tiempo + " (h). La distancia que recorrio fue de: " + distancia + " (KM). Su rendimiento es de: " + rendimiento + " (Km/galon). Sus galonesnecesarios son de: "+galonesnecesarios+" y el costo de combustible fue de: "+costocombustible);
