@@ -1,9 +1,7 @@
-﻿int numeroentero, digito, invertido;
+﻿int numeroentero, unidades,decenas, invertido;
 Console.WriteLine("Digite el numero de dos cifras a invertir: ");
 numeroentero = Convert.ToInt32(Console.ReadLine());
-digito = numeroentero % 10;
-invertido = digito;
-numeroentero = numeroentero / 10;
-digito = numeroentero % 10;
-invertido = (invertido * 10) + digito;
+unidades = numeroentero % 10;
+decenas = (numeroentero / 10) % 10;
+invertido = (unidades*10)+decenas;
 Console.WriteLine("EL valor invertido es: "+invertido);
