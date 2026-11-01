@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-double metroscuadrados, rendimiento, litrosporlata, rendimientoporlata, latasusasdas, litrossueltos;
+﻿double metroscuadrados, rendimiento, litrosporlata, rendimientoporlata, latasusasdas, litrossueltos;
 Console.WriteLine("Digite la cantidad de metros cuadrados a pintar: ");
 metroscuadrados = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Digite el valor de rendimiento (metrocuadrado/litro)");
