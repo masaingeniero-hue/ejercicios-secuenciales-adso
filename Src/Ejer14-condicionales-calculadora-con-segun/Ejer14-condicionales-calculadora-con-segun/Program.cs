@@ -26,7 +26,7 @@ else if (simbolo == "*")
 }
 else if (simbolo == "/")
 {
-    if (numero2 != 0)
+    if (numero2 == 0)
     {
         resultado = numero1 / numero2;
         Console.WriteLine($"Elegiste la division y su total es de: {resultado}");
